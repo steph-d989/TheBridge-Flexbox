@@ -1,0 +1,41 @@
+:root {
+    --pale-dogwood: #3a86ff;
+}
+main{
+    padding: 30px;
+    background-color: var(--pale-dogwood);
+
+}
+#contactos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+#contactos>article {
+    background-color: white;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 0;
+    padding: 10px;
+    border-color: black;
+}
+#contactos>article>div {
+    text-align: left;
+    margin-left: 20px;
+    flex: 75%;
+    border-bottom: 1px;
+    border-bottom: 5px;
+    border-color: black;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    flex: 25%;
+    margin-left: 23px;
+}
+
+
